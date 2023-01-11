@@ -9,7 +9,6 @@ end
 
    config.vm.box = "ubuntu/bionic64"
    config.vm.network "forwarded_port", guest: 80, host: 8095
-   config.vm.provision "shell",
-     inline: "apt update && apt -y install nginx vim curl telnet unzip wget net-tools htop nmap"
+   #config.vm.provision "shell",  path: "script.sh"
 
   end
