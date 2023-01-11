@@ -1,7 +1,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "Previc_lab"
+    vb.name = "Previc_lab01"
     vb.memory = 4096
     vb.cpus = 2
 end
